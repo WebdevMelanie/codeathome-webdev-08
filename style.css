@@ -1,0 +1,79 @@
+/*General*/
+@font-face {
+    font-family: Cormorant_Garamond-Light;
+    src: url("Cormorant_Garamond/CormorantGaramond-Light.ttf");
+}
+
+@font-face {
+    font-family: Cormorant_Garamond-Bold;
+    src: url("Cormorant_Garamond/CormorantGaramond-Bold.ttf");
+}
+
+@font-face {
+    font-family: Cormorant_Garamond-LightItalic;
+    src: url("Cormorant_Garamond/CormorantGaramond-LightItalic.ttf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f5f5;
+    font-family: Cormorant_Garamond-Light;
+}
+
+.head{
+    background-image: url(../Bilder/landscape_5.jpg);
+    background-attachment: fixed;
+    background-position: auto; 
+    background-size: cover;
+    width: auto;
+    height: 680px;
+}
+
+nav{
+    height: 7vh;
+    display:flex;
+    justify-content:flex-end;
+    align-items: space-between;
+}
+
+
+.navlink{
+    margin: 0px 5px;
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+    margin-top: -105px;
+}
+
+
+#world{
+    inline-size: 200px;
+    margin-left: 1600 px;
+}
+
+.topic{
+    margin-left: 200px;
+    margin-top: -155px; 
+    font-size: 80px;
+}
+
+.topbox{
+    background-color:  #f6f5f6;
+    border: black;
+    border-style: solid;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: -70px;
+}
+
+.allabout{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.forward{
+    text-align: center;
+    font-size: xx-large;
+}
+
