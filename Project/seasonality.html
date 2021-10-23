@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Organic Food World</title>
+        <title>Seasonality</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device=width, initial-scale=1.0">
         <link href="Styles/style.css" rel="stylesheet">
@@ -14,23 +14,52 @@
             
         
             <nav>
-                <a class="navlink"  id="activ" href="index.html">Start</a>
-                <a class="navlink" href="seasonality.html">Seasonality</a>
+                <a class="navlink" href="index.html">Start</a>
+                <a class="navlink" id="activ" href="seasonality.html">Seasonality</a>
                 <a class="navlink" href="recipes.html">Recipes </a>
                 <a class="navlink" href="purchase.html"> Nearest place to purchase </a>
                 <a class="navlink" href="contact.html"> contact </a>
             </nav>
         </div>   
-         </div> 
-        <div class="topbox">
-            <h4 class="allabout">All about organic food</h4>
-            <p class="forward">Step forward to get into it</p>
+            </div> 
+         <div class="topbox">
+            <h4 class="allabout">What kind of food are you looking for</h4>
+            <form class="searchbox">
+                <label for="name" class="label"> Name: </label>
+                    <input type="text" class ="item" name="usernmae" placeholder="for example: pea " required>
+                <label for="kind" class="label"> Type </label>
+                    <select name="kind" class="item">
+                        <option value="q0">kind of food</option>
+                        <option value="q1"> Vegetable</option>
+                        <option value="q2"> Fruit</option>
+                        <option value="q3"> Meat </option>
+                        <option value="q4"> Other </option>
+                    </select>
+                    <label for="avail" class="label"> Availability </label>
+                    <select name="avail" class="item">
+                        <option value="q0">select month</option>
+                        <option value="q1"> January</option>
+                        <option value="q2"> February</option>
+                        <option value="q3"> March </option>
+                        <option value="q4"> April </option>
+                        <option value="q5"> May</option>
+                        <option value="q6"> June</option>
+                        <option value="q7"> July </option>
+                        <option value="q8"> August </option>
+                        <option value="q9"> September</option>
+                        <option value="q10"> October</option>
+                        <option value="q11"> November </option>
+                        <option value="q12"> December </option>
+                    </select>  
+                    <input type="submit" class="item" value=submit>
+                    <input type="reset" class="item" value=reset>
+            </form>
+        <div class="search"></div>
         </div>
         <div class="bottombox">
-            <h4 class="ofthemonth">Vegetable / Food of the month</h4>
+            <h4 class="ofthemonth">To get more information abour organic fodd, use the search bar or click on the food below</h4>
             <div class=food>
-            <img id="foodimg" src="Bilder/cauliflower.jpg" alt ="a image of a cauliflower">
-            <p class="textfood">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            <p class="foodname">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras. Mattis nunc sed blandit 
                 libero volutpat sed cras ornare. Egestas integer eget aliquet nibh praesent tristique magna sit. Pulvinar
                 potenti. l. Mattis nunc sed blandit libero volutpat sed cras ornare. Egestas integer eget aliquet nibh 
@@ -61,4 +90,4 @@
             </div>
         </div>
     </body>
-</html>   
+</html>

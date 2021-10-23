@@ -123,3 +123,35 @@ nav{
     font-size: large;
     font-family: Como;
 }
+
+/*here comes staff for seasonallity*/
+
+.searchbox{
+    align-items: center;
+    background-color: rgb(214, 218, 221);
+    padding-bottom: 25px;
+    padding-top: 25px; 
+}
+
+.search{
+    
+    padding-bottom: 50px;
+}
+
+.item{
+    border:solid;
+    border-width: 2px;
+    border-radius: 4px;
+    display:inline-flex;
+    justify-content: center;
+    margin-left: 90px;
+    font-size: large;
+    
+}
+
+.label{
+    padding-left: 120px;
+    font-size: large;
+    font-weight: bold;
+}
+
