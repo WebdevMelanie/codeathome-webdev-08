@@ -216,6 +216,63 @@ nav{
 
 #foodimgc{
     inline-size: 300px;
-    padding: 35px;
-    margin-top: 25px ;
+    padding-left: 25px;
+    margin-top: -25px ;
+
+}
+
+.contactc{
+    padding-left: 400px;
+    margin-top: -450px;
+    padding-right: 450px;
+    
+}
+
+.sub{
+    align-content: center;
+    padding-top: 100px;
+    padding-left: 400px;
+}
+
+.labelc{
+    padding-left: 120px;
+    font-size: large;
+    font-weight: bold;
+    align-items: stretch;
+}
+
+
+.labelcm{
+    padding-left: 120px;
+    font-size: large;
+    font-weight: bold;
+    align-items: stretch;
+}
+
+.labelct{
+    padding-left: 120px;
+    font-size: large;
+    font-weight: bold;
+    align-items: stretch;
+    margin-right: 34px;
+}
+
+
+textarea { 
+    resize: none;
+    overflow: auto;
+}
+
+
+.namedetail{
+    height: 70px;
+}
+
+
+#adress{
+    margin-top: -270px;
+    margin-left: 1400px;
+    padding-right: 100px;
+    font-size: large;
+    font-weight: bold;
 }
