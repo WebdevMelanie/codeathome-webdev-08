@@ -208,6 +208,11 @@ nav{
     font-size: large;   
 }
 
+.buttonp:active{
+    position: relative;
+    top: 1px;
+}
+
 /*contact*/
 
 #foodimgc{
@@ -271,7 +276,6 @@ textarea {
     padding-right: 100px;
     font-size: large;
     font-weight: bold;
-
 }
 
 .buttonc{
@@ -294,4 +298,45 @@ textarea {
 .subc{
     margin-top: 20px;
     margin-left: 355px;
+}
+
+/*Seasonallity_1*/
+
+.ingre{
+    font-weight: bold;
+}
+
+.hungry{
+    font-weight: bold;
+}
+
+.recipess{
+    font-style: none;
+    color: green;
+    cursor: pointer;
+}
+
+.detail{
+    align-items: center;
+    padding-left:550px;
+    margin-top: -460px;
+    font-size: large;
+}
+
+.buttonback{
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: large; 
+    
+}
+
+.buttonback:active{
+    position: relative;
+    top: 1px;
+}
+
+.formback{
+    display:end;
+    font-size: large; 
+    margin-left: 1500px;
 }

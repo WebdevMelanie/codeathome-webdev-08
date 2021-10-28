@@ -5,6 +5,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device=width, initial-scale=1.0">
         <link href="Styles/style.css" rel="stylesheet">
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>"
        
     </head>
     <body>
@@ -186,13 +189,20 @@
                 <br>
             </ul>
         </div>
-        <div id="endbox">
-            <div id="output"></div>
+        <div id="app">
+            <script type="text/babel">
+            class app extends React.Component {
+                render(){
+                return
+                (<h1> Hello </h1>);
+            }}
+           
+            
+            
+            </script>
+            
         </div>
  <script src="app.js"></script>
 
 </body>
 </html>
-
-
-
