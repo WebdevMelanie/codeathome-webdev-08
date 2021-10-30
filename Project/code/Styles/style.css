@@ -217,7 +217,7 @@ nav{
 }
 
 
-.buttonp:active{
+#buttonp:active{
     position: relative;
     top: 1px;
 }
@@ -282,7 +282,7 @@ textarea {
 #adress{
     margin-top: -350px;
     margin-left: 1450px;
-    padding-right: 100px;
+    margin-right: 100px;
     font-size: large;
     font-weight: bold;
 }

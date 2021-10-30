@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\test Webdev"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Tobis Kochrezepte"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Earth and Mars"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Javatest"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Block color game"
+		},
+		{
+			"path": "..\\..\\node\\boilerplate-express-gomix"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project"
+	}
+}
