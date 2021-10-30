@@ -1,17 +1,17 @@
 /*General*/
 @font-face {
     font-family: Cormorant_Garamond-Light;
-    src: url("Cormorant_Garamond/CormorantGaramond-Light.ttf");
+    src: url("Font/Cormorant_Garamond-Light");
 }
 
 @font-face {
     font-family: Cormorant_Garamond-Bold;
-    src: url("Cormorant_Garamond/CormorantGaramond-Bold.ttf");
+    src: url("Font/Cormorant_Garamond");
 }
 
 @font-face {
     font-family: Cormorant_Garamond-LightItalic;
-    src: url("Cormorant_Garamond/CormorantGaramond-LightItalic.ttf");
+    src: url("Font/Cormorant_Garamond-LightItalic");
 
 }
 
@@ -56,7 +56,7 @@ nav{
     font-weight: bold;
 }
 
-#world{
+.logo{
     inline-size: 200px;
     margin-left: 1600 px;
 }
@@ -73,15 +73,17 @@ nav{
     margin-left: 75px;
     margin-right: 75px;
     margin-top: -70px;
+    height: 200px;
+    width: 1750px;
 }
 
-.allabout{
+.heading{
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
 }
 
-.forward{
+.subheading{
     text-align: center;
     font-size: xx-large;
 }
@@ -93,9 +95,10 @@ nav{
     margin-right: 75px;
     margin-top: 10px;
     height: 570px;
+    width: 1750px;
 }
 
-.ofthemonth{
+.headingbottom{
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
@@ -107,19 +110,20 @@ nav{
 }
 
 
-.foodimg{
+.bottomimg{
     inline-size: 300px;
     padding: 35px;
     margin-top: -60px;
     
 }
 
-.textfood{
-    margin-top: -434px;
-    margin-right: 30px;
-    margin-left: 450px;
-    padding-bottom: 115px;
+.bottomtext{
+    margin-top:    -434px ;
+    padding-right: 70px;
+    padding-left: 400px;
+    padding-bottom: 105px;
     font-size: large;
+    text-align: justify;
     
 }
 
@@ -224,7 +228,7 @@ nav{
 
 /*contact*/
 
-#foodimgc{
+#bottomimgc{
     inline-size: 300px;
     padding-left: 25px;
     margin-top: -25px ;
@@ -373,7 +377,7 @@ font-weight: bold;
 }
 
 
-#foodimgr{
+#bottomimgr{
     inline-size: 320px;
     padding: 35px;
     margin-top: -80px;
