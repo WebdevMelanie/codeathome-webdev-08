@@ -220,6 +220,12 @@ nav{
     font-size: large;   
 }
 
+#submitp:active{
+    position: relative;
+    top: 1px;
+}
+
+
 
 #buttonp:active{
     position: relative;
@@ -299,6 +305,13 @@ textarea {
     margin-left: 45px;
     font-size: large;   
 }
+
+.buttonc:active{
+    position: relative;
+    top: 1px;
+}
+
+
 
 .namedetail{
     height: 70px;
